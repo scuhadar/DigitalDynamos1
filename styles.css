@@ -1,0 +1,221 @@
+body {
+    font-size: 100%;
+    margin: 0;
+}
+
+.normal-text {
+    font-family: "El Messiri";
+    font-size: 100%;
+    color: #7A7A7A !important;
+}
+
+.heading-text {
+    font-family: "El Messiri";
+    font-size: 200%;
+    font-weight: bold;
+    color: black !important;
+}
+
+.section {
+    width: 100%;
+    height: 90vh;
+    padding-top: 10vh;
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* menu ------------------------------------------------- */
+
+#menubar {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    padding: 1%;
+}
+
+#menubar .menu-item {
+    display: inline;
+}
+
+#menubar .menu-item a {
+    padding: 0 2%;
+    text-decoration: none;
+    float: right;
+}
+
+#menu-logo {
+    display: inline;
+}
+
+#menu-logo .image {
+    width: 80px;
+    height: 40px;
+    background-image: url(images/logo.png);
+    display: inline-block;
+    padding: 0 2%;
+}
+
+/* home ------------------------------------------------- */
+
+#home-section {
+    background-size: 100%;
+    background-image: url(images/Home.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: 0;
+}
+
+#home-title {
+    width: fit-content;
+    position: relative;
+    top: 30%;
+    left: 60%;
+}
+
+/* service us ------------------------------------------------- */
+
+#service-title {
+    text-align: center;
+}
+
+#service-sub-sections {
+    height: 100%;
+    padding: 0 5%;
+    position: relative;
+}
+
+.service-sub-image {
+    width: 50%;
+    height: 120%;
+    background-image: url(images/front.png);
+    display: inline-block;
+}
+
+.service-sub-text {
+    width: 50%;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+}
+
+#service-1 {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 0;
+}
+
+#service-1 .service-sub-image{
+    background-image: url(images/serviceweb.png);
+}
+
+#service-2 {
+    width: 100%;
+    height: 40%;
+    position: relative;
+}
+
+#service-2 .service-sub-image {
+    background-image: url(images/front.png);
+    float: right;
+}
+
+#service-2 .service-sub-text {
+    text-align: right;
+}
+
+/* contact us ------------------------------------------------- */
+
+#contact-title {
+    text-align: center;
+}
+
+#contact-sub-sections {
+    width: 30%;
+    position: relative;
+    left: 35%;
+    padding: 5% 5%;
+}
+
+#contact-sub-sections p{
+    position: absolute;
+    top: 25%;
+    display: inline-block;
+    padding: 0 20%;
+    margin: 0;
+}
+
+#contact-phone .image{
+    background-image: url("images/telephone.png");
+}
+
+#contact-email .image{
+    background-image: url("images/mail.png");
+}
+
+#contact-social .image{
+    background-image: url("images/social\ media.png");
+}
+
+#contact-sub-sections .image{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+#contact-phone, #contact-email, #contact-social{
+    position: relative;
+}
+/* footer ------------------------------------------------- */
+
+#footer{
+    background-color: #5B92FF;
+    position: relative;
+    bottom: 0;
+    padding: 2% 20%;
+}
+
+#footer div{
+    color: white !important;
+}
+
+#footer-logo{
+    display: inline-block;
+}
+
+#footer-logo .image {
+    width: 200px;
+    height: 100px;
+    background-image: url("images/logo.png");
+}
+
+#footer-copyright{
+    text-align: center;
+}
+
+#footer-links{
+    display: inline-block;
+    padding: 2% 0 2% 50%;
+}
+
+#footer-links p{
+    text-decoration: underline;
+}
+
+#footer-links a{
+    display: block;
+    text-decoration: none;
+    color: white !important;
+}
+
+
+
+
